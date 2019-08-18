@@ -2,7 +2,7 @@
 """
 Created on Sat Aug 17 17:38:48 2019
 
-@author: ganes
+@author: Abhay K P
 """
 
 import warnings
@@ -22,3 +22,8 @@ matplotlib.rcParams['text.color'] = 'k'
 df = pd.read_csv("Power-Networks-LCL.csv")
 data_top = df.head(5)
 print(data_top)
+print(df.dtypes)
+#df.drop(['stdorToU'],axis=1)
+data_top = df.head(5)
+print(data_top)
+print(df.dtypes)
